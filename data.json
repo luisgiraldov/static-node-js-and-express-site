@@ -2,9 +2,9 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "Random Quote Generator.jpg",
+            "project_name": "Random Quote Generator",
             "description": "App that displays random famous quotes each time a button is clicked",
-            "tecnologies": ["JavaScript", "HTML5", "CSS3"],
+            "technologies": ["JavaScript", "HTML5", "CSS3"],
             "live_link": "https://luisgiraldov.github.io/random-quote-generator/",
             "github_link": "https://github.com/luisgiraldov/list-pagination-and-filtering",
             "image_urls": ["/static/images/project_1/random-quotes-landing.jpg", "/static/images/project_1/random-quotes-2.jpg", "/static/images/project_1/random-quotes-3.jpg", "/static/images/project_1/random-quotes-4.jpg"]
@@ -13,7 +13,7 @@
             "id": 1,
             "project_name": "List Pagination and Filtering",
             "description": "In this project we can see the use of a common web development technique known as pagination to enhance the usability of a web page.",
-            "tecnologies": ["JavaScript", "HTML5", "CSS3"],
+            "technologies": ["JavaScript", "HTML5", "CSS3"],
             "live_link": "https://luisgiraldov.github.io/list-pagination-and-filtering/",
             "github_link": "https://github.com/luisgiraldov/list-pagination-and-filtering",
             "image_urls": ["/static/images/project_2/list-pagination-landing.jpg", "/static/images/project_2/list-pagination-2.jpg", "/static/images/project_2/list-pagination-3.jpg", "/static/images/project_2/list-pagination-4.jpg"] 
@@ -22,7 +22,7 @@
             "id": 2,
             "project_name": "Interactive Form",
             "description": "In this project we can see the use of JavaScript to enhance an interactive registration form for a fictional conference called FullStack Conf.",
-            "tecnologies": ["JavaScript", "HTML5", "CSS3", "Require JS"],
+            "technologies": ["JavaScript", "HTML5", "CSS3", "Require JS"],
             "live_link": "https://luisgiraldov.github.io/interactive-form/",
             "github_link": "https://github.com/luisgiraldov/interactive-form",
             "image_urls": ["/static/images/project_3/register-form-landing.jpg", "/static/images/project_3/register-form-2.jpg", "/static/images/project_3/register-form-3.jpg", "/static/images/project_3/register-form-4.jpg"] 
@@ -31,7 +31,7 @@
             "id": 3,
             "project_name": "OOP Game show App",
             "description": "In this project we can see the use of JavaScript and OOP (Object-Oriented Programming) to select a random, hidden phrase, which a player tries to guess, by clicking letters on an onscreen keyboard.",
-            "tecnologies": ["JavaScript", "HTML5", "CSS3"],
+            "technologies": ["JavaScript", "HTML5", "CSS3"],
             "live_link": "https://luisgiraldov.github.io/OOP-Game-Show-App/",
             "github_link": "https://github.com/luisgiraldov/OOP-Game-Show-App",
             "image_urls": ["/static/images/project_4/phrase-hunter-landing.jpg", "/static/images/project_4/phrase-hunter-2.jpg", "/static/images/project_4/phrase-hunter-3.jpg", "/static/images/project_4/phrase-hunter-4.jpg"] 
@@ -40,7 +40,7 @@
             "id": 4,
             "project_name": "Public API Request",
             "description": "In this project we can see JavaScript using the Random User Generator API (https://randomuser.me/) to grab information for 12 random “employees,” and use that data to build a prototype for an Awesome Startup employee directory.",
-            "tecnologies": ["JavaScript", "HTML5", "CSS3"],
+            "technologies": ["JavaScript", "HTML5", "CSS3"],
             "live_link": "https://luisgiraldov.github.io/public-api-request/",
             "github_link": "https://github.com/luisgiraldov/public-api-request",
             "image_urls": ["/static/images/project_5/api-request-landing.jpg", "/static/images/project_5/api-request-2.jpg", "/static/images/project_5/api-request-3.jpg", "/static/images/project_5/api-request-4.jpg"] 
@@ -49,7 +49,7 @@
             "id": 5,
             "project_name": "Photographer Portfolio",
             "description": "This in a portfolio website, implemented for a client that wanted to showcase her work",
-            "tecnologies": ["JavaScript", "HTML5", "CSS3"],
+            "technologies": ["JavaScript", "HTML5", "CSS3"],
             "live_link": "https://marilynsphoto.com/",
             "github_link": "none",
             "image_urls": ["/static/images/marilynsphotography/marilyn-landing-page.jpg", "/static/images/marilynsphotography/marilyn-2.jpg", "/static/images/marilynsphotography/marilyn-3.jpg", "/static/images/marilynsphotography/marilyn-4.jpg"] 
@@ -58,7 +58,7 @@
             "id": 6,
             "project_name": "Personal Portfolio",
             "description": "This is my own personal portfolio to showcase my work.",
-            "tecnologies": ["JavaScript", "HTML5", "CSS3", "PHP"],
+            "technologies": ["JavaScript", "HTML5", "CSS3", "PHP"],
             "live_link": "https://luisgiraldov.com/",
             "github_link": "none",
             "image_urls": ["/static/images/luisgiraldov/luisgiraldov-landing-page.jpg", "/static/images/luisgiraldov/luisgiraldov-2.jpg", "/static/images/luisgiraldov/luisgiraldov-3.jpg", "/static/images/luisgiraldov/luisgiraldov-4.jpg"] 

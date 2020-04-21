@@ -4,6 +4,7 @@
   "description": "Portfolio website built with Node Js and Express Framework, to showcase development skills",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
