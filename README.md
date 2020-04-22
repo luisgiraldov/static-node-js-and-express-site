@@ -28,7 +28,7 @@ steps will be:
 - Open your terminal/console and make sure to be inside the project folder.
 for example
 ```
-cd downloads/project_name
+cd downloads/project_folder
 ```
 
 - Then type in your terminal/console
