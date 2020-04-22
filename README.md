@@ -12,7 +12,9 @@ You need Node JS and npm installed
 http://treehouse.github.io/installation-guides/
 
 ```
-Give examples
+Node JS
+npm
+Express
 ```
 
 ### Installing
