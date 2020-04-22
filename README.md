@@ -1,6 +1,6 @@
-# Project Title
+# Static Node.js and Express Site
 
-One Paragraph of project description goes here
+This project has been built for two main reasons, on one hand to showcase my previous work using different web technologies such as HTML, CSS and JavaScript. On the other hand to get more practice using npm, Node js, Express and git.
 
 ## Getting Started
 
@@ -8,7 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You need Node JS and npm installed
+http://treehouse.github.io/installation-guides/
 
 ```
 Give examples
@@ -16,72 +17,62 @@ Give examples
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+A step by step series of examples that tell you how to get a development env running for this project
 
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
+steps will be
 
 ```
-until finished
+make sure you have npm and Node js installed, you can learn how to do that here: http://treehouse.github.io/installation-guides/
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
 ```
-Give an example
+Download the project files, [here is the link if you need it](https://github.com/luisgiraldov/static-node-js-and-express-site)
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
+```
+Open your terminal/console and make sure to be inside the project folder.
+for example cd downloads/project_name
+```
 
 ```
-Give an example
+run npm install, to install all project's dependency
+```
+
+```
+start your server by:
+npm start
+or ->
+node app.js
+```
+
+```
+Go to your browser and type http://localhost:3000/
 ```
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Coming Soon with Heroku
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* [Express](https://expressjs.com/) - The web framework used
+* [npm](https://www.npmjs.com/) - Dependency Management
+* [Git](https://git-scm.com/) - Version Control System
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Lee Vaughn** - *Initial work* - [Teamtreehouse](https://teamtreehouse.com)
+* **Robert Manolis** - *Initial work* - [Teamtreehouse](https://teamtreehouse.com)
+* **Luis Giraldo** - *Functional Logic, Animations, Styling* - [Building Portfolio](https://luisgiraldov.com)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Inspiration - [Timeline](https://www.instagram.com/p/B4plkpIgmXy/?igshid=5gwczvj4n3zp)
+              - [Split Card Animation](https://www.instagram.com/p/B-Uto8Mn6pd/?igshid=y2yj5rn0x8eh)
+              - [Flip Card Animation](https://www.w3schools.com/howto/howto_css_flip_card.asp)
+              - [Error Picture](https://www.pexels.com/)

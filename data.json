@@ -6,7 +6,7 @@
             "description": "App that displays random famous quotes each time a button is clicked",
             "technologies": ["JavaScript", "HTML5", "CSS3"],
             "live_link": "https://luisgiraldov.github.io/random-quote-generator/",
-            "github_link": "https://github.com/luisgiraldov/list-pagination-and-filtering",
+            "github_link": "https://github.com/luisgiraldov/random-quote-generator/",
             "image_urls": ["/static/images/project_1/random-quotes-landing.jpg", "/static/images/project_1/random-quotes-2.jpg", "/static/images/project_1/random-quotes-3.jpg", "/static/images/project_1/random-quotes-4.jpg"]
         },
         {

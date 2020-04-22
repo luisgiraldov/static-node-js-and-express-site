@@ -11,6 +11,10 @@ router.get("/about", (req, res) =>{
     res.render("about");
 });
 
+router.get("/project", (req, res) => {
+    res.redirect("/projects/0");
+});
+
 router.get("/projects", (req, res) => {
     res.redirect("/projects/0");
 });
@@ -23,7 +27,6 @@ router.get("/projects/:id", (req, res, next) =>{
         next(err);
     } else {
         templateData = projects[id];
-        console.log(templateData);
         res.render("project", { templateData });
     }
 });
