@@ -31,26 +31,8 @@ block content
     //- each image in templateData.image_urls
       img.image(src=`${image}`)
     .split-card-container.js_split_card_container
-      //- input(
-      //-       type='checkbox'
-      //-       id='check'
-      //-       class="input-split"
-      //-     )
       .split-card
-        label(
-              for="check"
-              class="cards card-1"
-            )
-          img(src=`${templateData.image_urls[0]}`)
-        label(
-              for="check"
-              class="cards card-2"
-            )
-          img(src=`${templateData.image_urls[1]}`)
-        label(
-              for="check"
-              class="cards card-3"
-            )
-          img(src=`${templateData.image_urls[2]}`)
-
+        img(src=`${templateData.image_urls[0]}`, class="cards card-1 image")
+        img(src=`${templateData.image_urls[1]}`, class="cards card-2 image")
+        img(src=`${templateData.image_urls[2]}`, class="cards card-3 image")
     
