@@ -28,9 +28,29 @@ block content
           a.button.expanded(href=`${templateData.github_link}`) GitHub Repo
     
     //- Replace the URLs in the src attributes below with template literals and interpolation to dynamically add three project images.  You only have to add one image.  But adding more images to show your app in different states demonstrates a level of thoroughness and professionalism that potential employers will like to see. 
-    each image in templateData.image_urls
+    //- each image in templateData.image_urls
       img.image(src=`${image}`)
-    //- img.image(src=`${templateData.image_urls[0]}`)
-    //- img.image(src=`${templateData.image_urls[1]}`)
-    //- img.image(src=`${templateData.image_urls[2]}`)
-    //- img.image(src=`${templateData.image_urls[3]}`)
+    .split-card-container.js_split_card_container
+      //- input(
+      //-       type='checkbox'
+      //-       id='check'
+      //-       class="input-split"
+      //-     )
+      .split-card
+        label(
+              for="check"
+              class="cards card-1"
+            )
+          img(src=`${templateData.image_urls[0]}`)
+        label(
+              for="check"
+              class="cards card-2"
+            )
+          img(src=`${templateData.image_urls[1]}`)
+        label(
+              for="check"
+              class="cards card-3"
+            )
+          img(src=`${templateData.image_urls[2]}`)
+
+    
