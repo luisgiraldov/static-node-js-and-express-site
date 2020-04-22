@@ -1,8 +1,12 @@
+/******************************************
+Treehouse Techdegree:
+FSJS project 6 - Static Node.js and Express Site
+******************************************/
 const express = require("express");
 const router = express.Router();
 const { projects } = require("../data.json");
 
-//when there is a request on the root url returns this template from the views folder
+//Routes
 router.get("/", (req, res) => {
     res.render("index", { projects });
 });

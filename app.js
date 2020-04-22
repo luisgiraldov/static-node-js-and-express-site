@@ -1,3 +1,7 @@
+/******************************************
+Treehouse Techdegree:
+FSJS project 6 - Static Node.js and Express Site
+******************************************/
 const express = require("express");
 const app = express();
 //middleware to serve the static files in the public folder
