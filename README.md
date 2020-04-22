@@ -19,35 +19,35 @@ Give examples
 
 A step by step series of examples that tell you how to get a development env running for this project
 
-steps will be
+steps will be:
 
-```
-make sure you have npm and Node js installed, you can learn how to do that here: http://treehouse.github.io/installation-guides/
-```
+- make sure you have npm and Node js installed, you can learn how to do that here: http://treehouse.github.io/installation-guides/
 
-```
-Download the project files, [here is the link if you need it](https://github.com/luisgiraldov/static-node-js-and-express-site)
-```
+- Download the project files, [here is the link if you need it](https://github.com/luisgiraldov/static-node-js-and-express-site)
 
+- Open your terminal/console and make sure to be inside the project folder.
+for example
 ```
-Open your terminal/console and make sure to be inside the project folder.
-for example cd downloads/project_name
+cd downloads/project_name
 ```
 
+- Then type in your terminal/console
 ```
-run npm install, to install all project's dependency
+npm install 
 ```
+That will install all project's dependencies
+
+- Start your server by typing:
 
 ```
-start your server by:
 npm start
-or ->
+```
+or 
+```
 node app.js
 ```
 
-```
-Go to your browser and type http://localhost:3000/
-```
+- Go to your browser and type http://localhost:3000/
 
 ## Deployment
 
