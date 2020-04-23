@@ -25,7 +25,7 @@ router.get("/projects", (req, res) => {
 
 router.get("/projects/:id", (req, res, next) =>{
     const { id } = req.params;
-    if( id > projects.length || isNaN(id)){
+    if( id > projects.length - 1 || isNaN(id)){
         const err = new Error("Not found!");
         err.status = 404;
         next(err);
