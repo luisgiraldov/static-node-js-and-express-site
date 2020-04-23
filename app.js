@@ -29,5 +29,5 @@ app.use((err, req, res, next)=>{
     res.status(err.status);
     res.render("error");
 });
-
+console.log("App running on port: " + port);
 app.listen(port);
