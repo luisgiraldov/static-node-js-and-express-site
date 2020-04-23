@@ -4,6 +4,8 @@ FSJS project 6 - Static Node.js and Express Site
 ******************************************/
 const express = require("express");
 const app = express();
+//setting port for heroku, it takes either the port used by the env or 3000
+const port = process.env.PORT || 3000;
 //middleware to serve the static files in the public folder
 app.use("/static", express.static("public"));
 //set the view engine to look for pug files
@@ -28,4 +30,4 @@ app.use((err, req, res, next)=>{
     res.render("error");
 });
 
-app.listen(3000);
+app.listen(port);
